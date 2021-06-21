@@ -71,7 +71,7 @@ LogManager::instance().NEWMoneyLog(GetPlayerID(), GetName(), "NEW_MONEY_LOG", ""
 Thanks to the friendly layout of the columns, you can easily filter the transactions  
 and actions of the player we check, e.g. using his nickname and the approximate date of inaccuracies: 
 ```sql
-SELECT * FROM log.new_money_log WHERE `char_name` = "take2137" and `time` > "2021-06-21 21:37:00";
+SELECT * FROM log.new_money_log WHERE 'char_name' = "take2137" and 'time' > "2021-06-21 21:37:00";
 ```
   
   
@@ -141,5 +141,5 @@ LogManager::instance().NEWMoneyLog(GetPlayerID(), GetName(), "NEW_MONEY_LOG", ""
 Dzięki przyjaznemu układowi kolumn w łatwy sposób można filtrować transakcje i akcje gracza,  
 którego sprawdzamy, np. korzystając z jego nicku i orientacyjnej daty wystąpienia nieścisłości:
 ```sql
-SELECT * FROM log.new_money_log WHERE `char_name` = "take2137" and `time` > "2021-06-21 21:37:00";
+SELECT * FROM log.new_money_log WHERE 'char_name' = "take2137" and 'time' > "2021-06-21 21:37:00";
 ```

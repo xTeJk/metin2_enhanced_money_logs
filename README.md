@@ -1,4 +1,4 @@
-# Metin2 - Enhanced Money Logs
+# 📋 Metin2 - Enhanced Money Logs
 Control the amount of Yang on your Metin2 server with a few simple logs!  
 [![Discord](https://img.shields.io/discord/748288505507217428.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AEfuvwT)
   

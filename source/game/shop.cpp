@@ -24,7 +24,7 @@
 
 //REPLACE WITH:
 #ifdef TAKE_ENHANCED_MONEY_LOGS
-		char NPCShopLog[512];
+		char NPCShopLog[128];
 		snprintf(NPCShopLog, sizeof(NPCShopLog), "item_count: %u", item->GetCount());
 		LogManager::instance().NEWMoneyLog(ch->GetPlayerID(), ch->GetName(), "NPC_SHOP_BUY", NPCShopLog, item->GetVnum(), 0, "", -dwPrice, ch->GetGold(), ch->GetGold()-dwPrice);
 #else

@@ -5,7 +5,7 @@
 #ifdef TAKE_ENHANCED_MONEY_LOGS
 			if (cube_proto->gold > 0)
 			{
-				char CUBELog[512];
+				char CUBELog[128];
 				snprintf(CUBELog, sizeof(CUBELog), "item_count: %u", new_item->GetCount());
 				LogManager::instance().NEWMoneyLog(ch->GetPlayerID(), ch->GetName(), "CUBE_CREATE", CUBELog, new_item->GetVnum(), 0, 0, cube_proto->gold, ch->GetGold(), ch->GetGold()-cube_proto->gold);
 			}
